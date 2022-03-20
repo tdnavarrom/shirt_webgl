@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="X-Content-Type-Options=nosniff; IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parcial 1</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="form_div">
+
+        <h3> Shirt Configuration </h3>
+        <form id="shirt_form">
+            <label id="label_form">Waist:</label><br>
+            <input type="number" name="waist" id="waist" value="400">
+            <label id="label_form">Chest:</label><br>
+            <input type="number" name="chest" id="chest" value="500">
+            <label id="label_form">Length:</label><br>
+            <input type="number" name="length" id="length" value="700">
+            <label id="label_form">Shoulders:</label><br>
+            <input type="number" name="shoulders" id="shoulders" value="600">
+            <label id="label_form">Horizontal:</label><br>
+            <input type="range" name="translate_h" id="translate_h" value="0" min="-1000" max="1000" step="1">
+            <label id="label_form">Vertical:</label><br>
+            <input type="range" name="translate_v" id="translate_v" value="0" min="-1000" max="1000" step="1">
+            <label id="label_form">Scalate:</label><br>
+            <input type="range" name="scalate" id="scalate" value="1" min="1" max="4" step="0.1">
+            <label id="label_form">Rotate:</label><br>
+            <input type="range" name="rotate" id="rotate" value="0" min="0" max="360" step="1">
+            <button type="submit" name="submit">Submit</button>
+        </form>
+    </div>
+    <div id="canvas_id">
+        <canvas id="mywebgl" width="1080" height="920">
+            No tiene webGl en su procesador
+          </canvas>
+    </div>
+    <script type="text/javascript" src="./js/modules/additional_functions.js"></script>
+    <script type="text/javascript" src="./js/modules/render.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+
+  </body>
+</html>

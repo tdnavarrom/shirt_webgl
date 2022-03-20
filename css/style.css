@@ -1,0 +1,58 @@
+#form_div{
+    background-color: gainsboro;
+    border: 2px;
+    border-radius: 1%;
+    padding: 5px;
+    float: left;
+    padding-right: 20px;
+}
+
+#canvas_id{
+    margin-left: 20px;
+    background-color: black;
+    border: 2px;
+    border-radius: 1%;
+    float: left;
+}
+
+#label_form{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    color: #2a2a2a;
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    color: #151515;
+    text-align: center;
+}
+
+input[type=number]{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=range]{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+button[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+  
+button[type=submit]:hover {
+    background-color: #45a049;
+}
+  
